@@ -3,7 +3,7 @@
 Summary:	WordPressMU plugin to set the defaults for all new blogs created on server
 Name:		wpmu-plugin-%{plugin}
 Version:	1.5.2
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Applications/Publishing
 Source0:	http://downloads.wordpress.org/plugin/wpmu-new-blog-defaults.zip
@@ -15,16 +15,10 @@ Requires:	wpmu >= 2.9.1.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		pkgdir		%{_datadir}/wpmu
-%define		wp_root		%{pkgdir}
+%define		wp_root		%{_datadir}/wpmu
 %define		wp_content	%{wp_root}/wp-content
 %define		pluginsdir	%{wp_content}/mu-plugins
 %define		_sysconfdir	/etc/webapps/wpmu
-
-%define		_svnserver	svn+ssh://svn.delfi.net
-%define		_svnroot	%{_svnserver}%{_svnprefix}
-%define		_svnprefix	/wpmu/mu-plugins/%{plugin}
-%define		_svnpath	trunk
 
 %description
 This plugin does the following:
