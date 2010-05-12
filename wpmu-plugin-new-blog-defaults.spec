@@ -7,7 +7,7 @@ Release:	0.1
 License:	GPL v2+
 Group:		Applications/Publishing
 Source0:	http://downloads.wordpress.org/plugin/wpmu-new-blog-defaults.zip
-# Source0-md5:	c0a51c79f957d60ec648578685dbafd2
+# Source0-md5:	180a282b1baaec33b68b3bcab842ea71
 URL:		http://wordpress.org/extend/plugins/wpmu-new-blog-defaults/
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	sed >= 4.0
