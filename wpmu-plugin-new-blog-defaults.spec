@@ -1,4 +1,3 @@
-%define		package	wpmu
 %define		plugin	new-blog-defaults
 Summary:	WordPressMU plugin to set the defaults for all new blogs created on server
 Name:		wpmu-plugin-%{plugin}
